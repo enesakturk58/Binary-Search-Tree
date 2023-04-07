@@ -2,14 +2,20 @@
 
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
-      İlk önce 7 yi root olarak alıyorum.
+            1.1
 
-                      7
+            İlk 5'den başladım çünkü sağındaki oluşacak değerler ile solundaki oluşacak değerlerin sayısının birbirine en yakın olmasını istedim.
 
-      2. veri (5), 7'den küçük olduğu için 7'yi 5'in soluna alıyorum.
+      İlk önce 5'i root olarak alıyorum.
+
+                      5
+
+      1. veri (7), 5'den büyük olduğu için 7'yi 5'in sağına alıyorum.
 
                       5
                         7
+
+      2. veriyi ilk başta root olarak almıştım. Bunun index'le bir alakası yok. Sebebini yukarıda belirttim. (1.1)
 
       3. veri (1), 5 den küçük olduğu için 1'i 5'in soluna alıyorum.
 
